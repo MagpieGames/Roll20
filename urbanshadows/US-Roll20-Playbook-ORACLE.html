@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css?v=1272">
+</head>
+
+<body>
+<div class="charsheet">
+    <div class="sheet-grid-playbookMoves">
+        <div> <!--TABS CONTAINER-->
+            <div class="sheet-tab-buttons">
+                <input type="radio" name="attr-tabBtn" value="moves" checked="checked">
+                <span>Moves</span>
+                <input type="radio" name="attr-tabBtn" value="features">
+                <span>Features</span>
+                <input type="radio" name="attr-tabBtn" value="corruption">
+                <span>Corruption</span>
+                <input type="radio" name="attr-tabBtn" value="gear">
+                <span>Gear & Notes</span>
+                <input type="radio" name="attr-tabBtn" value="debts">
+                <span>Debts</span>
+            </div>
+
+            <div class="sheet-tabs-container">
+                <div class="sheet-tab-features">
+                    <div class="sheet-pCondensed"> <!--ORACLE FEATURES-->  
+                        <h2 class="sheet-h2">Your Benefactor</h2>
+                        <p>You have a benefactor, a powerful NPC whose fate is intertwined with your own; you
+                        came into their service as a result of your prophetic visions, but they now demand more
+                        and more from you and your powers. Name their Circle—Mortalis, Night, Power, or
+                        Wild—and choose the prophecy that binds you together, two strengths, and two flaws:</p>
+                        <div class="sheet-demlook sheet-grid-2col" style="grid-template-rows: 40px; padding-bottom: 15px;">
+                            <div><span class="sheet-darkinput-label">Name</span><input type="text" placeholder="Your benefactor name"></div>
+                            <div><span class="sheet-darkinput-label">Circle</span><input type="text" placeholder="Their circle"></div>
+                        </div>
+                        <h4 class="sheet-h4">YOUR PROPHECY:</h4>
+                        <div class="sheet-checklist">
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                        </div>
+                        <h4 class="sheet-h4">STRENGTHS:</h4>
+                        <div class="sheet-checklist">
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                        </div>
+                        <h4 class="sheet-h4">FLAWS:</h4>
+                        <div class="sheet-checklist">
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                        </div>
+                        <p>Ask the MC what life your benefactor has provided for you after you make your
+                        choices. Their continued largesse depends on how well you serve their interests.</p>
+                        <h3 class="sheet-h3">LOOKING FOR HELP</h3>
+                        <p>When you go to your benefactor for help or resources, roll with your Status. On a hit,
+                        they get you what you need, provided you offer prophetic insight into a problem they
+                        have right now. On a 10+, the support they give is exceptionally useful. On a miss, they
+                        reveal you overlooked something that greatly injured their Status; they are determined to
+                        remind you of their power over you before they even consider your request.</p>
+                        <h2 class="sheet-h2">FORETELLINGS</h2>
+                        <p>Before each faction turn—or at the start
+                        of the game—roll with Spirit. On a hit,
+                        pick one of the options below; after the
+                        faction turn, the MC will tell you what
+                        your prophetic tools have revealed:</p>
+                        <ul>
+                            <li>fate has provided an opportunity to fulfill your role for your benefactor; the MC will tell you how to seize it</li>
+                            <li>an ally has come to own an item that might reveal more about your prophecy; the MC will tell you where they keep it</li>
+                            <li>a coming tragedy might allow you to escape or alter your prophesized path; the MC will tell you who will suffer if you allow it to occur</li>
+                        </ul>
+                        <p>On a 7-9, you must also choose one:</p>
+                        <ul>
+                            <li>a threat is closing in; the MC will tell you why it stalks you or your benefactor</li>
+                            <li>an ally is plotting a betrayal; the MC will tell you when the hammer will fall</li>
+                            <li>a death lurks in the shadows; the MC will tell you how you can avoid it</li>
+                        </ul>
+                        <p>On a miss, you instead receive a
+                        terrifying premonition about the
+                        prophecy that binds you to your
+                        benefactor; take -1 ongoing to efforts
+                        you make to stop it from coming to pass.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> <!--SIDEBARS COLUMN-->
+            <div class="sheet-movesSidebar">
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Basic Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Turn to Violence</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Escape a Situation</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Persuade an NPC</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Figure Someone Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Mislead, Distract, or Trick</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Keep Your Cool</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Let it Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Lend a Hand or Get in the Way</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div></div>
+                    <button class="sheet-moveSB-name sheet-3-col">End of Session</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Circle Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Put a Name to a Face</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Hit the Streets</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Study a Place of Power</button>
+                </div>
+            </div>
+            <div> <!--Advancement-->
+                <h1 class="sheet-h1" style="text-align: center;">ADVANCEMENT</h1>
+                <div class="sheet-xp">
+                    <div class="sheet-h4 sheet-cell-right">Mortalis</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Power</div>
+                    <div class="sheet-h4 sheet-cell-right">Night</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Wild</div>
+                    <div class="sheet-4-col" style="font-size: 9pt; color: #b363c7; text-align: center; margin-top: 5px;">When you've marked all four Circles,<br>erase the marks and advance.</div>
+                </div>
+                <div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">Available at the beginning of play:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>open a new mortal relationship</div>
+                    </div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">After five advances, you may select:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>obtain Circle Status-2</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>erase a scar</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change your Circle</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change to a new playbook</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>

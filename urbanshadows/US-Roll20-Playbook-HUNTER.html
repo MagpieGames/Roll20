@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css?v=1288">
+</head>
+
+<body>
+<div class="charsheet">
+    <div class="sheet-grid-playbookMoves">
+        <div> <!--TABS CONTAINER-->
+            <div class="sheet-tab-buttons">
+                <input type="radio" name="attr-tabBtn" value="moves" checked="checked">
+                <span>Moves</span>
+                <input type="radio" name="attr-tabBtn" value="features">
+                <span>Features</span>
+                <input type="radio" name="attr-tabBtn" value="corruption">
+                <span>Corruption</span>
+                <input type="radio" name="attr-tabBtn" value="gear">
+                <span>Gear & Notes</span>
+                <input type="radio" name="attr-tabBtn" value="debts">
+                <span>Debts</span>
+            </div>
+
+            <div class="sheet-tabs-container">
+                <div class="sheet-tab-features">
+                    <div class="sheet-pCondensed sheet-grid-2col" style="grid-template-columns: 190px auto;"> <!--HUNTER FEATURES-->  
+                        <div> <!--Column 1-->
+                            <h2 class="sheet-h2">Your Society</h2>
+                            <p>You belong to a society of hunters, an affliation of
+                            fellow mortals who stalk dangerous prey to protect
+                            the mortal world from the supernatural. Tell your MC
+                            to stat up your society as a Size-2, Strength-2 faction
+                            within Mortalis.
+                            </p>
+                            <div>
+                                <h4 class="sheet-h4">WHAT IS YOUR PREY?</h4>
+                                <hr>
+                                <div class="sheet-checklist">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>vampires who feed on the weak and coerced</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>demons who corrupt the good and the just</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>angels who subjugate the will of the faithful</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>ghosts who plague the lives of the innocent</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>wizards who abuse their power and authority</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <h4 class="sheet-h4">WHAT DID YOU SACRIFICE TO JOIN?</h4>
+                                <hr>
+                                <div class="sheet-checklist">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <h4 class="sheet-h4">WHERE DOES YOUR SOCIETY GATHER?</h4>
+                                <hr>
+                                <div class="sheet-checklist">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div> <!--Column 2-->
+                            <h2 class="sheet-h2">Your Arsenal</h2>
+                            <p>Create three custom weapons for your hunts; choose a base and two add-ons for each weapon.</p>
+                            <h3 class="sheet-h3" style="padding-bottom: 5px;">RANGED WEAPONS</h3>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                            <br>
+                            <h3 class="sheet-h3" style="padding-bottom: 5px;">HAND WEAPONS</h3>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                                <div class="sheet-hunterWeapon">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                    <select class="sheet-HWbase">
+                                        <option>[Base]</option>
+                                        <option>Bow (2-harm close/far reload)</option>
+                                        <option>Shotgun (2-harm close/near loud reload messy)</option>
+                                        <option>SMG (2-harm near autofire loud)</option>
+                                        <option>Pistol (2-harm near loud concealable)</option>
+                                        <option>Rifle (2-harm far loud reload)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                    <div></div>
+                                    <select>
+                                        <option>--</option>
+                                        <option>Silenced (-loud)</option>
+                                        <option>Big (+1 harm / -concealable)</option>
+                                        <option>Semi-automatic (-reload)</option>
+                                        <option>Automatic (+autofire)</option>
+                                        <option>Antique/Ornate (+cherished)</option>
+                                        <option>Blessed (+holy)</option>
+                                        <option>High-powered (+1 harm)</option>
+                                        <option>Scoped (+far or +1 harm at far)</option>
+                                        <option>Silvered (+silver)</option>
+                                        <option>Magically resistant (+cold iron)</option>
+                                    </select>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> <!--SIDEBARS COLUMN-->
+            <div class="sheet-movesSidebar">
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Basic Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Turn to Violence</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Escape a Situation</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Persuade an NPC</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Figure Someone Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Mislead, Distract, or Trick</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Keep Your Cool</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Let it Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Lend a Hand or Get in the Way</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div></div>
+                    <button class="sheet-moveSB-name sheet-3-col">End of Session</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Circle Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Put a Name to a Face</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Hit the Streets</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Study a Place of Power</button>
+                </div>
+            </div>
+            <div> <!--Advancement-->
+                <h1 class="sheet-h1" style="text-align: center;">ADVANCEMENT</h1>
+                <div class="sheet-xp">
+                    <div class="sheet-h4 sheet-cell-right">Mortalis</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Power</div>
+                    <div class="sheet-h4 sheet-cell-right">Night</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Wild</div>
+                    <div class="sheet-4-col" style="font-size: 9pt; color: #b363c7; text-align: center; margin-top: 5px;">When you've marked all four Circles,<br>erase the marks and advance.</div>
+                </div>
+                <div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">Available at the beginning of play:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>open a new mortal relationship</div>
+                    </div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">After five advances, you may select:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>obtain Circle Status-2</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>erase a scar</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change your Circle</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change to a new playbook</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>

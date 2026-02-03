@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css?v=1288">
+</head>
+
+<body>
+<div class="charsheet">
+    <div class="sheet-grid-playbookMoves">
+        <div> <!--TABS CONTAINER-->
+            <div class="sheet-tab-buttons">
+                <input type="radio" name="attr-tabBtn" value="moves" checked="checked">
+                <span>Moves</span>
+                <input type="radio" name="attr-tabBtn" value="features">
+                <span>Features</span>
+                <input type="radio" name="attr-tabBtn" value="corruption">
+                <span>Corruption</span>
+                <input type="radio" name="attr-tabBtn" value="gear">
+                <span>Gear & Notes</span>
+                <input type="radio" name="attr-tabBtn" value="debts">
+                <span>Debts</span>
+            </div>
+
+            <div class="sheet-tabs-container">
+                <div class="sheet-tab-features">
+                    <div class="sheet-pCondensed"> <!--TAINTED FEATURES-->  
+                        <h2 class="sheet-h2">YOUR DARK PATRON</h2>
+                        <p>Your soul has fallen into the hands of a dark patron, a powerful
+                        demon whose reputation precedes them, but whose true name is
+                        known to few. They have given you terms of employment, access
+                        to terrible power, and terrifying insight into their true nature.</p>
+                        <h4 class="sheet-h4">CHOOSE 2:</h4>
+                        <p>You serve (choose one):</p>
+                        <div class="sheet-checklist">
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                            <label class="sheet-checkbox-small"><input type="checkbox"></label><div>***option***</div>
+                        </div>
+                                                
+                        <h2 class="sheet-h2">YOUR DEMON FORM</h2>
+                        <p>Since your patron claimed your soul, you have a new look: a
+                        demon form. Pick as many as apply from the lists below:</p>
+                        <div style="display: grid; grid-template-columns: repeat(5, auto);">
+                            <div class="sheet-checklist">
+                                <h4 class="sheet-h4 sheet-2-col">Head</h4>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Bone</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Concave</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Crown</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Flames</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Halo</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Horns</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>Spikes</div>
+                            </div>
+                            <div class="sheet-checklist">
+                                <h4 class="sheet-h4 sheet-2-col">Eyes</h4>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                            </div>
+                            <div class="sheet-checklist">
+                                <h4 class="sheet-h4 sheet-2-col">Limbs</h4>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                            </div>
+                            <div class="sheet-checklist">
+                                <h4 class="sheet-h4 sheet-2-col">Wings</h4>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                            </div>
+                            <div class="sheet-checklist">
+                                <h4 class="sheet-h4 sheet-2-col">Skin</h4>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                            </div>
+                        </div>
+                        <h2 class="sheet-h2">DEMONIC JOBS</h2>
+                        <div class="sheet-grid-2col">
+                            <div>
+                                <p>Your dark patron keeps you on Earth for a reason; they could
+                                always have decided to drag you to hell. Choose two jobs you
+                                regularly do for them from the list below:</p>
+                                <div class="sheet-checklist">
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                    <label class="sheet-checkbox-small"><input type="checkbox"></label><div>**option**</div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>When you complete a job for your patron, mark Wild. Your
+                                patron owes you a Debt for every job completed. You can cash
+                                in a Debt with your Patron in order to have them:</p>
+                                <ul>
+                                    <li>**list**</li>
+                                    <li>**list**</li>
+                                    <li>**list**</li>
+                                    <li>**list**</li>
+                                    <li>**list**</li>
+                                </ul>
+                                <p>Your patron holds 3 Debts on you. They may one day offer you
+                                the chance to buy your freedom, but Debts alone won't be
+                                enough. At any time, your patron may cash in any Debts you
+                                owe them—1 for 1—to inflict corruption on you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> <!--SIDEBARS COLUMN-->
+            <div class="sheet-movesSidebar">
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Basic Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Turn to Violence</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Escape a Situation</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Persuade an NPC</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Figure Someone Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Mislead, Distract, or Trick</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Keep Your Cool</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Let it Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Lend a Hand or Get in the Way</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div></div>
+                    <button class="sheet-moveSB-name sheet-3-col">End of Session</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Circle Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Put a Name to a Face</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Hit the Streets</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Study a Place of Power</button>
+                </div>
+            </div>
+            <div> <!--Advancement-->
+                <h1 class="sheet-h1" style="text-align: center;">ADVANCEMENT</h1>
+                <div class="sheet-xp">
+                    <div class="sheet-h4 sheet-cell-right">Mortalis</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Power</div>
+                    <div class="sheet-h4 sheet-cell-right">Night</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Wild</div>
+                    <div class="sheet-4-col" style="font-size: 9pt; color: #b363c7; text-align: center; margin-top: 5px;">When you've marked all four Circles,<br>erase the marks and advance.</div>
+                </div>
+                <div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">Available at the beginning of play:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>open a new mortal relationship</div>
+                    </div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">After five advances, you may select:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>obtain Circle Status-2</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>erase a scar</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change your Circle</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change to a new playbook</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
