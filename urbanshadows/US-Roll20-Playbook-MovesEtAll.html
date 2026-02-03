@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css?v=1267">
+</head>
+
+<body>
+<div class="charsheet">
+    <div class="sheet-grid-playbookMoves">
+        <div> <!--TABS CONTAINER-->
+            <div class="sheet-tab-buttons">
+                <input type="radio" name="attr-tabBtn" value="moves" checked="checked">
+                <span>Moves</span>
+                <input type="radio" name="attr-tabBtn" value="features">
+                <span>Features</span>
+                <input type="radio" name="attr-tabBtn" value="corruption">
+                <span>Corruption</span>
+                <input type="radio" name="attr-tabBtn" value="gear">
+                <span>Gear & Notes</span>
+                <input type="radio" name="attr-tabBtn" value="debts">
+                <span>Debts</span>
+            </div>
+
+            <div class="sheet-tabs-container">
+                <div class="sheet-tab-moves">
+                    <div class="sheet-moves-grid sheet-pCondensed">
+                    <div>  <!--FAE MOVES-->  
+                        <h2 class="sheet-h2">FAE Moves</h2>
+                        <h5 class="sheet-2-col sheet-h5">YOU GET THIS ONE:</h5>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox" checked></label>
+                                <h4 class="sheet-h4">FAERIE MAGIC</h4>
+                            </div>
+                            You have access to gifts of your court, powers that call upon your homeland’s magic
+                            and wonder. Select your powers from the list provided. Whenever you use a faerie
+                            power, choose 1:<br >
+                            <ul>
+                                <li>suffer 1-harm (ap)</li>
+                                <li>mark corruption</li>
+                                <li>give your monarch a Debt</li>
+                            </ul>
+                        </div>
+                        <h5 class="sheet-2-col sheet-h5">AND CHOOSE TWO MORE:</h5>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                <h4 class="sheet-h4">A Dish Best Served Now</h4>
+                            </div>
+                            When you commit to enacting revenge on behalf of someone (including yourself) wronged by another, gain +1 ongoing against the target of that vengeance. For every scene in which you do not pursue vengeance after committing to it, suffer 1-harm (ap).
+                        </div>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                <h4 class="sheet-h4">In Our Blood</h4>
+                            </div>
+                            When you mislead, distract, or trick someone from a different Circle through lies of omission or clever misdirection, roll with Heart instead of Mind.
+                        </div>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                <h4 class="sheet-h4">Scales of Justice</h4>
+                            </div>
+                            Cash in a Debt with someone to target them using a power from Faerie Magic—including powers not normally available to you—at no additional cost.
+                        </div>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                <h4 class="sheet-h4">Draw Back the Curtain</h4>
+                            </div>
+                            When you escape a situation, add this option to the list:<br>
+                            <ul>
+                                <li>you escape to your homeland, for better or worse</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="sheet-moveName">
+                                <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                                <h4 class="sheet-h4">Words Are Wind</h4>
+                            </div>
+                            You know instantly if someone has broken their word to you or reneged on a deal you’ve made; take a Debt on them and +1 ongoing to claim what you deserve from them or their allies until they’ve made things right.
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="sheet-h2">LET IT OUT</h2>
+                        <div style="font-size: 9pt; color: #b363c7;">TO ACTIVATE THESE ABILITIES</div>
+                        <div class="sheet-letitout">
+                            <ul>
+                                <li>summon an elemental storm of your court (2-harm close area ap)</li>
+                                <li>appear to others as someone you have previously touched</li>
+                                <li>compel the elements of your court to reveal what they have seen</li>
+                                <li>create a telepathic link between yourself and another for a scene</li>
+                            </ul>
+                        </div>
+                        <h2 class="sheet-h2">Intimacy</h2>
+                        <div class="sheet-intimacy">When you share a moment of intimacy—physical or emotional—with another person, demand a promise from them. If they refuse you or break the promise, they owe you a Debt.</div> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div> <!--SIDEBARS COLUMN-->
+            <div class="sheet-movesSidebar">
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Basic Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Turn to Violence</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Escape a Situation</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Persuade an NPC</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Figure Someone Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Mislead, Distract, or Trick</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Keep Your Cool</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name">Let it Out</button>
+                    <label class="sheet-checkbox-small"><input type="checkbox"></label>
+                    <button class="sheet-moveSB-name">Adv.</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Lend a Hand or Get in the Way</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div></div>
+                    <button class="sheet-moveSB-name sheet-3-col">End of Session</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <div class="sheet-h3 sheet-4-col">Circle Moves</div>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Put a Name to a Face</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Hit the Streets</button>
+                </div>
+                <div class="sheet-moveSB">
+                    <button class="sheet-RollDice"></button>
+                    <button class="sheet-moveSB-name sheet-3-col">Study a Place of Power</button>
+                </div>
+            </div>
+            <div> <!--Advancement-->
+                <h1 class="sheet-h1" style="text-align: center;">ADVANCEMENT</h1>
+                <div class="sheet-xp">
+                    <div class="sheet-h4 sheet-cell-right">Mortalis</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Power</div>
+                    <div class="sheet-h4 sheet-cell-right">Night</div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-cell-center"><label class="sheet-checkbox"><input type="checkbox"></label></div>
+                    <div class="sheet-h4 sheet-cell-left">Wild</div>
+                    <div class="sheet-4-col" style="font-size: 9pt; color: #b363c7; text-align: center; margin-top: 5px;">When you've marked all four Circles,<br>erase the marks and advance.</div>
+                </div>
+                <div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">Available at the beginning of play:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 Status (max+1)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a new Aware move</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>a move from another playbook</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>open a new mortal relationship</div>
+                    </div>
+                    <div class="sheet-advances">
+                        <div class="sheet-4-col">After five advances, you may select:</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>+1 any Circle (max+3)</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>obtain Circle Status-2</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>erase a scar</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change your Circle</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>advance 3 basic moves</div>
+                        <label class="sheet-checkbox-small"><input type="checkbox"></label><div>change to a new playbook</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>

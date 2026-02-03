@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css?v=1291">
+</head>
+
+<body>
+    <div class="charsheet">
+    <div class="sheet-grid-playbookTop">
+        <div class="sheet-pb-header sheet-icon-mortalis">
+            <div class="sheet-the"><img src="https://roll20.magpiegames.com/urbanshadows/US-Roll20-The.png" alt="The" width="50"></div>
+            <div class="sheet-pb-name">Spectre</div>
+            <div class="sheet-pb-flavor sheet-2-col">The machinations of Power rely on many to keep the wheels turning, but none so much as those sworn to serve the many factions of Powerâ€”academies, abbeys, and councils. Yet no matter what oath underlies their service, those sworn must make their own decisions about control, loyalty, and justice...</div>
+        </div>
+        <div class="sheet-namedemlook">
+            <div class="sheet-namepron">
+                <div class="sheet-whiteinput-label">Name</div>
+                <div class="sheet-whiteinput-label">Pronouns</div>
+                <div><input type="text" placeholder="Your Name" maxlength="30" style="width: 250px;"></div>
+                <div><input type="text" placeholder="They/Them" maxlength="12" style="width: 80px;"></div>
+            </div>
+            <div class="sheet-demlook">
+                <div><span class="sheet-darkinput-label">Demeanor</span><input type="text" placeholder="Your Demeanor"></div>
+                <div><span class="sheet-darkinput-label">Look</span><input type="text" placeholder="Your Look"></div>
+            </div>
+        </div>
+        <div class="sheet-grid-pbstats">
+            <div class="sheet-h1 sheet-4-col">STATS</div>
+            <div class="sheet-diamante"><input type="text" name="attr_blood"></div>
+            <div class="sheet-diamante"><input type="text" name="attr_heart"></div>
+            <div class="sheet-diamante"><input type="text" name="attr_mind"></div>
+            <div class="sheet-diamante"><input type="text" name="attr_spirit"></div>
+            <div class="sheet-stat-name">BLOOD</div>
+            <div class="sheet-stat-name">HEART</div>
+            <div class="sheet-stat-name">MIND</div>
+            <div class="sheet-stat-name">SPIRIT</div>
+        </div>
+        <div class="sheet-grid-pbcircles">
+            <div class="sheet-h1 sheet-4-col">CIRCLES</div>
+            <div class="sheet-circulo"><input type="text" name="attr_mort"></div>
+            <div class="sheet-circulo"><input type="text" name="attr_night"></div>
+            <div class="sheet-circulo"><input type="text" name="attr_power"></div>
+            <div class="sheet-circulo"><input type="text" name="attr_wild"></div>
+            <div class="sheet-stat-name">MORTALIS</div>
+            <div class="sheet-stat-name">NIGHT</div>
+            <div class="sheet-stat-name">POWER</div>
+            <div class="sheet-stat-name">WILD</div>
+            <div class="sheet-status">STATUS<input type="text" value="0"></div>
+            <div class="sheet-status">STATUS<input type="text" value="0"></div>
+            <div class="sheet-status">STATUS<input type="text" value="0"></div>
+            <div class="sheet-status">STATUS<input type="text" value="0"></div>
+        </div>
+        <div class="sheet-grid-harm">
+            <div class="sheet-harm-header">
+                <div class="sheet-h1">Harm</div>
+                <div class="sheet-armor">ARMOR<input type="text" value="0"></div>
+            </div>
+            <div class="sheet-harm-row">
+                <div style="display: block; width: 21px;"></div>
+                <div>
+                    <label class="sheet-checkbox"><input type="checkbox"></label>
+                </div>
+                <div class="sheet-harm-label">Faint</div>
+                <div><input class="sheet-injury" type="text" maxlength="35" placeholder="Injury Description"></div>
+            </div>
+            <div class="sheet-harm-row">
+                <div>
+                    <label class="sheet-checkbox"><input type="checkbox"></label>
+                </div>
+                <div>
+                    <label class="sheet-checkbox"><input type="checkbox"></label>
+                </div>
+                <div class="sheet-harm-label">Serious</div>
+                <div><input class="sheet-injury" type="text" maxlength="35" placeholder="Injury Description"></div>
+            </div>
+            <div class="sheet-harm-row">
+                <div>
+                    <label class="sheet-checkbox"><input type="checkbox"></label>
+                </div>
+                <div>
+                    <label class="sheet-checkbox"><input type="checkbox"></label>
+                </div>
+                <div class="sheet-harm-label">Critical</div>
+                <div><input class="sheet-injury" type="text" maxlength="35" placeholder="Injury Description"></div>
+            </div>
+        </div>
+        <div style="padding: 20px;">
+            <div class="sheet-h2">End move</div>
+            <div>When your spirit passes on permanently to the other side, any PCs present gain +1 Spirit (max+3) or take a corruption advance, your choice.</div>
+        </div>
+    </div>
+
+<!-- MIDDLE SECTION -->
+    <div class="sheet-grid-playbookMiddle">
+        <div class="sheet-scarsbar sheet-pb-flavor">
+            <div class="sheet-h2">Scars</div>
+            <label class="sheet-checkbox-small"><input type="checkbox" name="attr_shattered"></label>
+            <div>Shattered (-1 Blood)</div>
+            <label class="sheet-checkbox-small"><input type="checkbox" name="attr_crushed"></label>
+            <div>Crushed (-1 Heart)</div>
+            <label class="sheet-checkbox-small"><input type="checkbox" name="attr_fractured"></label>
+            <div>Fractured (-1 Mind)</div>
+            <label class="sheet-checkbox-small"><input type="checkbox" name="attr_broken"></label>
+            <div>Broken (-1 Spirit)</div>
+            <button class="sheet-charCreatBtn">Character Creation</button>
+        </div>
+        <div class="sheet-charCreation sheet-3-col sheet-pCondensed">
+            <div>
+                <b>NAME (PICK ONE)</b>
+                <p>Alisa, Anthony, Cam, Cleo, Cole, Datu,
+                Devon, Galina, Hairi, Hans, Julius, Kim,
+                Kirsten, Laasya, Lara, Miguel, Philip,
+                Rashid, Veronica</p>
+                <b>LOOK (PICK AS MANY AS APPLY)</b>
+                <ul>
+                    <li>androgynous, conforming, shifting, nonconforming</li>
+                    <li>Asian or South Asian, Black, Hispanic/Latinx, Indigenous, Middle Eastern, White, _____</li>
+                    <li>brand name clothing, business casual, forgettable clothing, uniformed</li>
+                </ul>
+                <b>DEMEANOR (PICK ONE)</b>
+                <p>aggressive, charming, composed, paranoid</p>
+            </div>
+            <div>
+                <b>STARTING CHARACTER STATS</b>
+                <br>(Add 1 to one of these)
+                <p>Blood 0, Heart 1, Mind -1, Spirit 1</p>
+                <b>STARTING CIRCLES</b>
+                <br>(Add 1 to one of these)
+                <p>Mortalis 1, Night 0, Power 1, Wild -1</p>
+                <b>STARTING STATUS</b>
+                <p>Mortalis 1, Night 0, Power 0, Wild 0</p>
+                <b>INTRO QUESTIONS</b>
+                <ul>
+                    <li>How did you discover the supernatural?</li>
+                    <li>How long have you been in the city?</li>
+                    <li>What mortal commitment keeps you from leaving your old life behind?</li>
+                    <li>What mortal aspiration have you given up?</li>
+                    <li>What powerful faction or person are you currently investigating?</li>
+                </ul>
+            </div>
+            <div>
+                <b>STARTING GEAR</b><br>
+                An small apartment, a used car, a smartphone.
+                A Self-defense Weapon:<br>
+                <ul>
+                    <li>9mm Beretta (2-harm near loud concealable)</li>
+                    <li>Taser (s-harm hand)</li>
+                    <li>Switchblade (2-harm hand concealable</li>
+                </ul>
+                <p>Your kit (detail)</p>
+                <b>STARTING DEBTS</b>
+                <ul>
+                    <li>Someone befriended you long before
+                    you discovered the supernatural...and
+                    purposefully hid its existence from you
+                    when it mattered. They owe you a Debt.</li>
+                    <li>Someone puts up with your questions about
+                    the supernatural. You owe them a Debt.</li>
+                    <li>You’re leveraging dirt you have on
+                    someone to get their help dismantling
+                    a supernatural scheme that targets
+                    innocent mortals. You owe them a Debt.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
